@@ -15,6 +15,12 @@ public class DoPayrollTypeF
 		tim.setName("Tim");
 		tim.setJobTitle("DEV");
 		tim.setHourlyRate(7.53);
-		tim.cutCheck(tim.findPaymentAmount(10));
+		tim.cutCheck(tim.findPaymentAmount(50));
+		
+		PartTimeWithOver john = new PartTimeWithOver();
+		john.setName("John");
+		john.setJobTitle("Driver");
+		john.setHourlyRate(7.53);
+		john.cutCheck(john.findPaymentAmount(50));
 	}
 }
