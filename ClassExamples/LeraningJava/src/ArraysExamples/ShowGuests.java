@@ -17,8 +17,15 @@ public class ShowGuests
 		System.out.println("Room\tGuests");
 		for (int i = 0; i < guest.length; i++) 
 		{
+			
 			System.out.printf("%d\t%d\n",i,guest[i]);
 		}
-		
+		System.out.println();
+		int room=0;
+		System.out.println("Room\tGuests");
+		for(int i : guest)
+		{
+			System.out.printf("%d\t%d\n",room++,i);
+		}
 	}
 }
