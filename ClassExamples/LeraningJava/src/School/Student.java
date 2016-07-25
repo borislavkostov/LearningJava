@@ -85,7 +85,7 @@ public class Student
 	}
 	public void showStudent()
 	{
-		System.out.print("Name "+this.getName()+"Mid name "+this.getMidName()+"Surname "+this.getSurname()+"Specialty "+this.getSpecialty()+"University "+this.getUniversity()+"\nEmail "+this.getEmail()+"Phone number "+this.getPhoneNum()+"\n");
+		System.out.print("Name "+this.getName()+" Mid name "+this.getMidName()+" Surname "+this.getSurname()+" Specialty "+this.getSpecialty()+" University "+this.getUniversity()+" \nEmail "+this.getEmail()+" Phone number "+this.getPhoneNum()+"\n");
 		
 	}
 	public void writeStudent(Scanner input)
