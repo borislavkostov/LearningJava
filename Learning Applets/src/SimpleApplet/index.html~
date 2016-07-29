@@ -1,0 +1,6 @@
+<html>
+<body>
+<embed  src="SimpleApplet.java" width=350 height=200 type="application/x-java-applet"/>
+</object>
+</body>
+</html>
